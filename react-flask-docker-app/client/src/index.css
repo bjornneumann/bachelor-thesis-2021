@@ -1,0 +1,53 @@
+/* Copyright (C) 2021 Björn Leon Neumann 
+ * This software has been created as part of my bachelor thesis
+ * "Evaluation of startup pitch decks using machine learning and natural language processing"
+ * at the University of St. Gallen under the supervision of Prof. Dr. Ivo Blohm
+ */
+
+html, body, #root {
+	font-family: Roboto;
+	background: #FAF9FA;
+	margin: 0;
+	padding: 0;
+}
+
+.MuiAppBar-root {
+	background: white !important;
+	color: black !important;
+	background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgba(133, 133, 133, 0.1);
+    box-shadow: none !important;
+}
+
+#bar_title {
+	text-align: center;
+	font-family: "Work Sans";
+}
+
+#upload_area {
+	margin-top: 50px;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+#upload_button {
+	margin: 0 auto;
+}
+
+#new_upload_button {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.MuiAccordion-root, .accordion_text_data, .accordion_additional_data {
+	margin-bottom: -30px !important;
+    margin-top: 30px !important;
+    margin-left: -30px !important;
+    margin-right: -30px !important;
+    border-radius: 20px !important;
+}
+/*
+.accordion_additional_data {
+	border-radius: 0 !important;
+}
+*/
